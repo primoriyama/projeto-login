@@ -30,7 +30,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
     width: 255px;
@@ -40,6 +39,7 @@ section#login {
 
     transition: .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 div#campo {
     background-color: rgba(255, 166, 0, 0.514);
@@ -53,6 +53,23 @@ div#campo {
 
 label {
     display: none;
+}
+
+div#campo {
+    font-size: 2em;
+    padding: 5px;   
+    margin-left: 8px;
+}
+
+div#campo > input {
+    background-color: white;
+    width: calc(100% - 32px);
+    height: 100%;
+    padding-bottom: 1.5px;
+    border: 5px;
+    border-radius: 5px;
+    transform: translateY(-8px);  
+    
 }
 
 input#entrar {
@@ -87,6 +104,7 @@ a#botao:hover {
 }
 a#botao > i {
     font-size: 1.2em;
+    padding-top: 5px;
     
 }
 
