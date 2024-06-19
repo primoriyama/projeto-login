@@ -32,8 +32,8 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 255px;
+    height: 570px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
 
@@ -41,6 +41,18 @@ section#login {
     transition-timing-function: ease;
 }
 
+span#ologin {
+    margin-top: 15px;
+}
+
+span#asenha {
+    margin-top: 15px;
+}
+
+input#entrar {
+    margin-top: 15px;
+    width: 30%;
+}
 section#login > div#imagem {
     background: rgba(255, 166, 0, 0.514) url(../imagens/pexels-dinnow-86001860-9444476.jpg);
     background-size: cover;
@@ -52,4 +64,14 @@ section#login > div#imagem {
 section#login > div#formulario {
     padding: 10px;
     display: block;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+    text-align: justify;
 }
