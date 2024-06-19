@@ -11,6 +11,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-size: small;
 }
 
 body, html {
@@ -40,19 +41,55 @@ section#login {
     transition: .3s, height .3s;
     transition-timing-function: ease;
 }
-
-span#ologin {
-    margin-top: 15px;
+div#campo {
+    background-color: rgba(255, 166, 0, 0.514);
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 0px;
 }
 
-span#asenha {
-    margin-top: 15px;
+label {
+    display: none;
 }
 
 input#entrar {
     margin-top: 15px;
-    width: 30%;
+    padding: 5px 0px;
+    width: 100%;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
+input#entrar:hover {
+    background-color: lightgrey;
+}
+
+a#botao {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    display: block;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.562);
+    border-radius: 5px;
+    font-size: 1em;
+    text-decoration: none;
+}
+a#botao:hover {
+    background-color: lightblue;
+    text-decoration: underline;
+}
+a#botao > i {
+    font-size: 1.2em;
+    
+}
+
 section#login > div#imagem {
     background: rgba(255, 166, 0, 0.514) url(../imagens/pexels-dinnow-86001860-9444476.jpg);
     background-size: cover;
@@ -75,3 +112,4 @@ div#formulario > p {
     font-size: 0.8em;
     text-align: justify;
 }
+

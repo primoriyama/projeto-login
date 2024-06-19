@@ -3,7 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) { /*tablet*/
     section#login {
     width: 80vw;
-    
+    font-size: medium;
     }
 
 body {
@@ -25,7 +25,7 @@ section#login > div#formulario {
 @media screen and (min-width: 992px) { /*telas grandes*/
     section#login {
         width: 950px;
-
+        font-size: large;
     }
     body {
         background-image: linear-gradient(to top, rgba(255, 166, 0, 0.322), rgb(255, 38, 0));
